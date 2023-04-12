@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Data</title>
+    <link rel="stylesheet" href="webform.css">
+</head>    
+<body>
+    <center>
+        <form>
+            <h1 id="h1">TCS REGISTRATION</h1>
+            <label for="firstname"> Enter Firstname</label>
+            <input type="text" name="firstname" placeholder="Firstname" required>
+            <br>
+            <br>
+            <label for="lastname"> Enter Lastname</label>
+            <input type="text" name="lastname" placeholder="Lastname" required>
+            <br>
+            <br>
+            <label for="gender"> <b>Select Gender :</b> </label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other
+            <br>
+            <br>
+            <label for="password"> Enter password</label>
+            <input type="password" name="password">
+            <br>
+            <br>
+            <label for="secque" class="c1"><b>Security Question:</b></label>
+            <br>
+            <br>
+            <select name="secque" id="secque">
+                <option disabled selected>Select Your Question</option>
+                <option value="Q1">What is your Birthplace?</option>
+                <option value="Q1">What is your Pet Name?</option>
+                <option value="Q1">What is your Hobby?</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="question">Enter Answer:</label>
+            <input type="text" name="question">
+            <br>
+            <br>
+            <button type="submit" id="btn">Submit</button>
+            <br>
+            <br>
+            
+        </form>
+</center>
+</body>
+</html>

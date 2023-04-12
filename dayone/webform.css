@@ -1,0 +1,48 @@
+#h1
+{
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+}
+
+form
+{
+    border: 3px solid blue;
+    border-radius: 3%;
+    background-color: skyblue;
+}
+
+#btn
+{
+    background-color:rgb(240, 62, 97);
+    color: azure;
+    width: 100px;
+    height: 30px;
+    border: 2px solid brown;
+    border-radius: 20%;
+    
+}
+
+#btn:hover
+{
+    background-color: greenyellow;
+    color: crimson;
+}
+
+
+.c1 {
+    color: red;
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-fill-mode:backwards;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes color-change {
+    0% {
+      color: yellow;
+    }
+    100% {
+      color: red;
+    }
+  }
