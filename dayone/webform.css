@@ -29,6 +29,18 @@ form
     color: crimson;
 }
 
+input
+{
+  border: 1px solid;
+  border-radius: 10%;
+}
+
+
+#secque
+{
+  background-color:aqua;
+  color: black;
+}
 
 .c1 {
     color: red;

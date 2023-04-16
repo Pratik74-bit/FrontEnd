@@ -1,0 +1,206 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  .bgimage
+  {
+      /* The image used */
+    background-image: url("back.png");
+
+  }
+
+  body {    
+    background-image: url('back.png');
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    color: aliceblue;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  #welcomeinfo
+  {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+ #picpad {
+    max-width:30%;
+    height: auto;
+    border: 5px solid;
+    border-radius: 50%;
+    
+  }
+
+#about
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#skill
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+  header {
+    color: aliceblue;
+    background-color:  #1F1952;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to bottom right, black, rgb(9, 47, 101));
+  }
+  
+  nav ul {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color:aliceblue;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:aliceblue;
+  }
+  
+  section ul {
+    list-style: none;
+  }
+  
+
+
+#quote
+{
+    background-image: linear-gradient(to bottom right, black, rgb(9, 47, 101));
+    border: #f8f9fa solid;
+    border-style: dotted;
+    color:aliceblue;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+#pic
+{
+    display: flex;
+    column-gap: 20px;
+}
+
+#projects{
+  display: block;
+  color: aliceblue;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol li a{
+  color: aliceblue;
+  font-weight:bold;
+}
+
+ol{
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #000000;
+  font-family: monospace;
+}
+
+
+
+#contact
+{
+  text-align: center;
+}
+form
+{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+form input
+{
+  background-image: linear-gradient(to bottom right, aliceblue, rgb(118, 175, 255));
+  width: 300px;
+  height: 30px;
+}
+
+#send
+{
+  background-image: linear-gradient(to bottom right, black, rgb(9, 47, 101));
+  color: aliceblue;
+  border: 2px aliceblue solid;
+  border-radius: 50%;
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#send:hover
+{
+  background-image: none;
+  background-color: aliceblue; 
+  color: #000000;
+  transition: color 0.3s ease-in-out; 
+}
+
+form button
+{
+  background-image: linear-gradient(to bottom right, black, rgb(9, 47, 101));
+  color: aliceblue;
+  border: 2px aliceblue solid;
+  border-radius: 50%;
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form button:hover
+{  
+  background-image: none;
+  background-color: aliceblue; 
+  color: #000000;
+  transition: color 0.3s ease-in-out; 
+
+}
+
+.proimg
+{
+  height: 300px;
+}
